@@ -1,0 +1,16 @@
+name: radai
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - numpy
+  - nibabel
+  - scikit-image
+  - scikit-learn
+  - tqdm
+  - pip
+  - pip:
+      - nnunetv2

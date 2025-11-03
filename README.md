@@ -1,0 +1,56 @@
+# LVMC-HeartSeg
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC--BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/)
+[![Framework: nnU-Net v2](https://img.shields.io/badge/framework-nnU--Net%20v2-brightgreen.svg)](https://github.com/MIC-DKFZ/nnUNet)
+[![Status: Academic Research](https://img.shields.io/badge/status-Academic%20Research-orange.svg)]()
+[![Made with ❤️ at DKFZ/NCT Heidelberg](https://img.shields.io/badge/made%20with%E2%9D%A4-DKFZ%2FNCT%20Heidelberg-red.svg)]()
+
+Automatic segmentation of cardiac substructures (**left ventricular myocardial walls and coronary arteries**)  
+on non-angiographic contrast CT (cCT), based on **nnU-Net v2**.
+
+---
+
+## 🧩 Features
+- nnU-Net v2–based 3D full-resolution architecture for non-angiographic cCT
+- Segmentation of LV myocardial walls (apical, septal, inferior, anterior, lateral), coronary arteries (LMCA, LAD, LCx, RCA), and major chambers/vessels
+- Iterative AI-assisted annotation workflow with human-in-the-loop refinement
+- Complete hyperparameter configurations in `configs/training_hyperparameters.yaml`
+
+---
+
+## ⚙️ Environment Setup
+```bash
+conda env create -f environment.yml
+conda activate radai
+```
+
+---
+
+## 🚀 Usage
+```bash
+python train.py --config configs/training_hyperparameters.yaml
+python inference.py --input data/example_case/CT.nii.gz --output results/LVMC_mask.nii.gz
+```
+
+---
+
+## 🧠 Citation
+> Wei J, Knoll M, Furkel J, Abdollahi A, et al.  
+> **LVMC-HeartSeg: Automatic left ventricular myocardial and coronary artery segmentation on non-angiographic cCT using nnU-Net v2.**  
+> 2025. *Manuscript in preparation.*
+
+---
+
+## 🧩 License
+This project is licensed under **CC BY-NC-SA 4.0** (academic and research use only).  
+Commercial use is **not permitted** without explicit permission.  
+License: https://creativecommons.org/licenses/by-nc-sa/4.0/  
+Commercial contact: jielin.wei@dkfz-heidelberg.de
+
+---
+
+## 🧑‍💻 Contact
+**Jielin Wei, MD**  
+Postdoctoral Researcher, DKFZ/NCT Heidelberg  
+📧 jielin.wei@dkfz-heidelberg.de

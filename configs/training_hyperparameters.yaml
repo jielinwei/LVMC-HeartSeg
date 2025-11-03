@@ -1,0 +1,25 @@
+# LVMC-HeartSeg model hyperparameters (example)
+model:
+  backbone: "nnU-Net v2 3D fullres"
+  input_channels: 1
+  output_channels: 14
+  feature_maps: [32, 64, 128, 256, 512]
+
+training:
+  epochs: 200
+  batch_size: 2
+  learning_rate: 1.0e-4
+  optimizer: "Adam"
+  weight_decay: 1.0e-4
+  scheduler: "ReduceLROnPlateau"
+  loss: "DiceCE"
+  augmentation:
+    rotation_deg: 10
+    scaling: [0.9, 1.1]
+    flipping: true
+  validation_split: 0.2
+
+inference:
+  sliding_window: true
+  overlap: 0.5
+  tta: false

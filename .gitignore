@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Notebooks and logs
+.ipynb_checkpoints/
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Medical imaging data
+*.nii
+*.nii.gz
+*.nrrd
+*.mha
+*.mhd
+*.dcm
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# Training artifacts
+checkpoints/
+results/
+runs/
+wandb/
+tensorboard/

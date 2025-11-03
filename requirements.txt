@@ -1,0 +1,8 @@
+numpy
+nibabel
+scikit-image
+scikit-learn
+tqdm
+torch
+torchvision
+nnunetv2
