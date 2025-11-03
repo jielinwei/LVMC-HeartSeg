@@ -52,8 +52,7 @@ If you use **LVMC-HeartSeg** in your research or publications, please cite:
   url     = {https://github.com/jielinwei/LVMC-HeartSeg},
   note    = {Code released under CC BY-NC-SA 4.0 for academic use}
 }
-
-
+```
 
 ---
 
@@ -62,6 +61,19 @@ This project is licensed under **CC BY-NC-SA 4.0** (academic and research use on
 Commercial use is **not permitted** without explicit permission.  
 License: https://creativecommons.org/licenses/by-nc-sa/4.0/  
 Commercial contact: jielin.wei@dkfz-heidelberg.de
+
+---
+
+## 🔒 Intended Use & Data Privacy
+
+**Intended Use.**  
+This repository is provided **for academic research and method reproduction only**.  
+It is **not** intended for clinical diagnosis, treatment planning, or any other clinical decision-making.
+
+**Data Privacy.**  
+This repository does **not** include any protected health information (PHI).  
+The directory `data/example_case/` is reserved for **anonymized demo samples only**.  
+Do not upload or share real patient data through this repository.
 
 ---
 
