@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: LVMC-HeartSeg
+message: If you use this code, please cite it as below.
+type: software
+authors:
+  - family-names: Wei
+    given-names: Jielin
+  - family-names: Knoll
+    given-names: Maximilian
+  - family-names: Furkel
+    given-names: Jennifer
+  - family-names: Abdollahi
+    given-names: Amir
+repository-code: https://github.com/jielinwei/LVMC-HeartSeg
+license: CC-BY-NC-SA-4.0
+keywords: [medical imaging, cardiac, segmentation, nnUNet, cCT, radiotherapy]
+version: 0.1.0
+date-released: 2025-11-XX
