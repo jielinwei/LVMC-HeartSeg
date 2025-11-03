@@ -39,6 +39,14 @@ python inference.py --input data/example_case/CT.nii.gz --output results/LVMC_ma
 > Wei J, Knoll M, Furkel J, Abdollahi A, et al.  
 > **LVMC-HeartSeg: Automatic left ventricular myocardial and coronary artery segmentation on non-angiographic cCT using nnU-Net v2.**  
 > 2025. *Manuscript in preparation.*
+> @software{Wei2025_LVMC_HeartSeg,
+  author  = {Wei, Jielin and Knoll, Maximilian and Furkel, Jennifer and Abdollahi, Amir},
+  title   = {LVMC-HeartSeg: Automatic LV myocardial wall and coronary artery segmentation on non-angiographic cCT using nnU-Net v2},
+  year    = {2025},
+  url     = {https://github.com/jielinwei/LVMC-HeartSeg},
+  note    = {Code released under CC BY-NC-SA 4.0 for academic use}
+}
+
 
 ---
 
